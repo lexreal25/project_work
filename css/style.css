@@ -531,3 +531,4 @@ header nav ul li a:hover{
     -o-transition: 0.6s ease;
     -ms-transition: 0.6s ease;
 }
+@media and only screen(max-width)
