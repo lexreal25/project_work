@@ -531,3 +531,41 @@ header nav ul li a:hover{
     -o-transition: 0.6s ease;
     -ms-transition: 0.6s ease;
 }
+
+.download-area h2{
+    color: #fff;
+}
+
+.download-area .sub-heading p{
+    color:#fff;
+}
+
+.download-area{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../image/mockup.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.download-area .default-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 40px;
+    margin: 12px ;
+    transition: 0.5s ease-in;
+}
+
+
+.download-area .default-btn:hover{
+    background: #fff;
+    color: deepskyblue;
+}
+
+.download-area .fa {
+    margin-right: 10px;
+}
+
+.download {
+    padding: 100px 0px;
+}
