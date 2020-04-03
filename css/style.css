@@ -591,4 +591,63 @@ header nav ul li a:hover{
     color: #3a3a33;
     font-weight: 700;
     text-transform: capitalize;
+    margin-bottom: 4px;
+    letter-spacing: 0.025em;
+}
+
+.contact-area span{
+    display: block;
+    color: #3a3a3a;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 0.025em;
+}
+
+.contact-area ul li {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.contact-area ul li:last-child{
+    margin-bottom: 0;
+}
+
+.contact-address ul li .fa {
+    float: left;
+    width: 25px;
+    color: deepskyblue;
+    font-size: 30px;
+}
+
+.contact-address ul li .address-phone {
+    float: left;
+    width:180px;
+    padding-left: 25px;
+}
+
+.contact-block{
+    padding-left: 25px;
+}
+
+.contact-area .form-control, .contact-area textarea {
+    font-family: 'Roboto', sans-serif;
+    background: #f8fdff;
+    border: 1px solid #a5d3ab;
+    padding: 10px 12px;
+    color: #bdbdbd;
+    height: 45px;
+    font-weight: 400;
+    border-radius: 0;
+}
+
+.contact-area .form-group{
+    margin-bottom: 35px;
+}
+
+.contact-area textarea{
+    min-width: 115px;
+}
+
+.contact-area .default-btn{
+    padding: 10px;
 }
