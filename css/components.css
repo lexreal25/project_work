@@ -1,0 +1,87 @@
+* body,html {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 112px;   
+    line-height:112px ; 
+    position: relative;;
+    width: 100%;
+    background-color: purple;
+  }
+  .secondary{
+      background-color: deepskyblue;
+      box-shadow: 0px 0px 17px 0px;
+      transition: all 0.5s ease-in;
+  }
+  ul {
+      list-style: none;
+  }
+  ul li {
+      display: inline-block;
+  }
+  
+  header nav {
+      float: right;
+  }
+  
+  .logo img{
+      margin-top: 20px;
+  }
+  .img-logo{
+      width: 150px;
+  }
+  
+  header nav ul li a{
+      padding-right: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      transition: all 0.5s ease-in;
+  }
+  header nav ul li a:hover{
+     text-decoration:none;
+     color: red;
+  }
+.contact-us {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.inner-form {
+    margin: 50px;
+    text-align: center;
+    -webkit-filter:drop-shadow(rgba(0, 0, 0, 0.9) 16px 16px 10px);
+    filter: drop-shadow(rgba(0, 0, 0, 0.9) 16px 16px 10px); 
+}
+.contact-us div {
+    margin: 15px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    text-align: left;
+}
+textarea {
+    width: 500px    ;
+    height: 45px;
+    text-align: left;
+}
+input, textarea {
+    margin-left: 5px;
+    border: 2px solid silver    ;
+}
+
+#contact-button
+{
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    color: black;
+    border: 2px solid grey;
+    background-color: green;
+}
+#txt{
+    color: black;
+    background-color: blue;
+}
